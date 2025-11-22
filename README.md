@@ -21,7 +21,7 @@ A comprehensive data analysis project examining UK-based online retail transacti
 
 ---
 
-## 🎯 Project Overview
+## project-overview
 
 This project analyzes transactional data from a UK-based e-commerce company specializing in unique all-occasion gifts. The analysis spans transactions from **December 2010 to December 2011** and focuses on extracting actionable insights to support strategic business decisions.
 
