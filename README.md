@@ -9,9 +9,9 @@ A comprehensive data analysis project examining UK-based online retail transacti
 ---
 
 ## 📋 Table of Contents
-- [Project Overview](#project-overview)
-- [Business Questions](#business-questions)
-- [Dataset](#dataset)
+- [Project Overview](#Project overview)
+- [Business Questions](#Business Questions)
+- [Dataset](#Dataset)
 - [Key Findings](#key-findings)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
@@ -29,7 +29,7 @@ This project analyzes transactional data from a UK-based e-commerce company spec
 
 ---
 
-## 💼 Business Questions
+## Business Questions
 
 This analysis addresses three critical business questions:
 
@@ -54,7 +54,7 @@ This analysis addresses three critical business questions:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source**: [Online Retail Dataset - Kaggle](https://www.kaggle.com/datasets/tunguz/online-retail)
 
