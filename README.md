@@ -9,10 +9,10 @@ A comprehensive data analysis project examining UK-based online retail transacti
 ---
 
 ## 📋 Table of Contents
-- [Project Overview](#Project overview)
-- [Business Questions](#Business Questions)
+- [Project Overview](#Project-overview))
+- [Business Questions](#Business-Questions)
 - [Dataset](#Dataset)
-- [Key Findings](#key-findings)
+- [Key Findings](#Key-Findings)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
 - [Installation & Usage](#installation--usage)
@@ -21,7 +21,7 @@ A comprehensive data analysis project examining UK-based online retail transacti
 
 ---
 
-## project-overview
+## Project-overview
 
 This project analyzes transactional data from a UK-based e-commerce company specializing in unique all-occasion gifts. The analysis spans transactions from **December 2010 to December 2011** and focuses on extracting actionable insights to support strategic business decisions.
 
@@ -29,7 +29,7 @@ This project analyzes transactional data from a UK-based e-commerce company spec
 
 ---
 
-## Business Questions
+## Business-Questions
 
 This analysis addresses three critical business questions:
 
@@ -75,7 +75,7 @@ This analysis addresses three critical business questions:
 
 ---
 
-## 🔍 Key Findings
+## Key-Findings
 
 ### Revenue Performance
 - **Peak Revenue Month**: November 2011 generated the highest revenue
