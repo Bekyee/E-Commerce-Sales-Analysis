@@ -15,8 +15,8 @@ A comprehensive data analysis project examining UK-based online retail transacti
 - [Key Findings](#Key-Findings)
 - [Technologies Used](#Technologies-used)
 - [Project Structure](#Project-structure)
-- [Installation & Usage](#installation--usage)
-- [Visualizations](#visualizations)
+- [Installation & Usage](#Installation-and-Usage)
+- [Visualizations](#Visualizations)
 - [Author](#author)
 
 ---
@@ -73,6 +73,11 @@ This analysis addresses three critical business questions:
 
 **Dataset Size**: 541,909 transactions | 8 variables
 
+**Note**: Due to file size limitations, the raw dataset is not included in this repository. 
+To replicate this analysis:
+1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/tunguz/online-retail)
+2. Place the CSV file in the `data/raw/` folder
+3. Run the notebooks in order
 ---
 
 ## Key-Findings
@@ -105,3 +110,94 @@ This analysis addresses three critical business questions:
 ---
 
 ## Project-structure
+```
+E-Commerce-Sales-Analysis/
+│
+├── data/
+│   ├── raw/                           # Original dataset (not included)
+│   └── processed/                     # Cleaned and processed data
+│       ├── rfm_customer_segments.csv
+│       └── product_performance_summary.csv
+│
+├── notebooks/
+│   ├── 01_e_commerce_data_cleaning.ipynb    # Data cleaning and preprocessing
+│   └── 02_business_analysis.ipynb           # Business analysis and insights
+│
+├── images/                            # Visualization outputs
+│   ├── monthly_revenue_trend.png
+│   ├── customer_segmentation.png
+│   └── product_performance.png
+│
+├── .gitignore
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Installation-and-Usage
+
+### Prerequisites
+- Python 3.8 or higher
+- Jupyter Notebook
+
+### Setup-instructions
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/Bekyee/E-Commerce-Sales-Analysis.git
+cd E-Commerce-Sales-Analysis
+```
+
+2. **Install required packages**
+```bash
+pip install -r requirements.txt
+```
+
+3. **Download the dataset**
+   - Visit [Kaggle - Online Retail Dataset](https://www.kaggle.com/datasets/tunguz/online-retail)
+   - Download the CSV file
+   - Place it in the `data/raw/` folder
+
+4. **Launch Jupyter Notebook**
+```bash
+jupyter notebook
+```
+
+5. **Run the notebooks in order**
+   - Start with `01_e_commerce_data_cleaning.ipynb`
+   - Then proceed to `02_business_analysis.ipynb`
+
+---
+
+## Visualizations
+
+### Monthly Revenue Trend
+![Revenue Trend](images/monthly_revenue_trend.png)
+
+### Customer Segmentation
+![Customer Segments](images/customer_segmentation.png)
+
+### Product Performance
+![Product Performance](images/product_performance.png)
+
+---
+
+## Author
+
+**Becky Wu**
+- GitHub: [@Bekyee](https://github.com/Bekyee)
+- LinkedIn: [Becky Wu](https://www.linkedin.com/in/bekcy-wu-699895398)
+
+---
+
+## Acknowledgments
+
+- Dataset provided by [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/online+retail)
+- Special thanks to the Kaggle community for making this dataset accessible
+
+---
+
+## Contact
+
+For any questions or collaboration opportunities, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/bekcy-wu-699895398) or open an issue in this repository.
