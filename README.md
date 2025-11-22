@@ -9,6 +9,7 @@ A comprehensive data analysis project examining UK-based online retail transacti
 ---
 
 ## 📋 Table of Contents
+
 - [Project Overview](#Project-overview)
 - [Business Questions](#Business-Questions)
 - [Dataset](#Dataset)
@@ -73,11 +74,18 @@ This analysis addresses three critical business questions:
 
 **Dataset Size**: 541,909 transactions | 8 variables
 
-**Note**: Due to file size limitations, the raw dataset is not included in this repository. 
-To replicate this analysis:
-1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/tunguz/online-retail)
-2. Place the CSV file in the `data/raw/` folder
-3. Run the notebooks in order
+### Data Files
+
+Due to GitHub file size limitations, the data files are provided in a compressed format:
+
+- **`data.zip`**: Contains both raw and processed datasets
+  - `raw/e_commerce.csv` - Original dataset
+  - `processed/e_commerce_cleaned.csv` - Cleaned dataset
+  - `processed/rfm_customer_segments.csv` - RFM analysis results
+  - `processed/product_performance_summary.csv` - Product performance metrics
+
+**To use the data**: Extract `data.zip` in the project root directory before running the notebooks.
+
 ---
 
 ## Key-Findings
@@ -113,9 +121,11 @@ To replicate this analysis:
 ```
 E-Commerce-Sales-Analysis/
 │
-├── data/
-│   ├── raw/                           # Original dataset (not included)
-│   └── processed/                     # Cleaned and processed data
+├── data.zip                           # Compressed data files (extract before use)
+│   ├── raw/
+│   │   └── e_commerce.csv
+│   └── processed/
+│       ├── e_commerce_cleaned.csv
 │       ├── rfm_customer_segments.csv
 │       └── product_performance_summary.csv
 │
@@ -141,7 +151,7 @@ E-Commerce-Sales-Analysis/
 - Python 3.8 or higher
 - Jupyter Notebook
 
-### Setup-instructions
+### Setup Instructions
 
 1. **Clone the repository**
 ```bash
@@ -149,15 +159,19 @@ git clone https://github.com/Bekyee/E-Commerce-Sales-Analysis.git
 cd E-Commerce-Sales-Analysis
 ```
 
-2. **Install required packages**
+2. **Extract the data files**
+```bash
+# Windows (using File Explorer)
+Right-click on data.zip → Extract All
+
+# Mac/Linux (using terminal)
+unzip data.zip
+```
+
+3. **Install required packages**
 ```bash
 pip install -r requirements.txt
 ```
-
-3. **Download the dataset**
-   - Visit [Kaggle - Online Retail Dataset](https://www.kaggle.com/datasets/tunguz/online-retail)
-   - Download the CSV file
-   - Place it in the `data/raw/` folder
 
 4. **Launch Jupyter Notebook**
 ```bash
@@ -175,11 +189,17 @@ jupyter notebook
 ### Monthly Revenue Trend
 ![Revenue Trend](images/monthly_revenue_trend.png)
 
+*Monthly revenue shows strong seasonal patterns with peak performance in Q4, indicating significant holiday shopping activity.*
+
 ### Customer Segmentation
 ![Customer Segments](images/customer_segmentation.png)
 
+*RFM analysis reveals that VIP and Loyal customers, while representing only 35% of the customer base, contribute approximately 70% of total revenue.*
+
 ### Product Performance
 ![Product Performance](images/product_performance.png)
+
+*Product analysis identifies clear revenue concentration among top performers, with the top 10 products accounting for 15% of total revenue.*
 
 ---
 
@@ -189,15 +209,27 @@ jupyter notebook
 - GitHub: [@Bekyee](https://github.com/Bekyee)
 - LinkedIn: [Becky Wu](https://www.linkedin.com/in/bekcy-wu-699895398)
 
+*Aspiring Data Analyst with a background in Accounting, passionate about using data to solve business problems and improve financial efficiency.*
+
 ---
 
 ## Acknowledgments
 
 - Dataset provided by [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/online+retail)
 - Special thanks to the Kaggle community for making this dataset accessible
+- Original dataset collected by Dr. Daqing Chen, Director of Public Analytics group, Chongqing University, China
 
 ---
 
 ## Contact
 
 For any questions or collaboration opportunities, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/bekcy-wu-699895398) or open an issue in this repository.
+
+---
+
+This project demonstrates proficiency in:
+- Data cleaning and preprocessing
+- Exploratory data analysis (EDA)
+- Customer segmentation using RFM analysis
+- Business insights extraction
+- Data visualization and storytelling
