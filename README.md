@@ -9,12 +9,12 @@ A comprehensive data analysis project examining UK-based online retail transacti
 ---
 
 ## 📋 Table of Contents
-- [Project Overview](#Project-overview))
+- [Project Overview](#Project-overview)
 - [Business Questions](#Business-Questions)
 - [Dataset](#Dataset)
 - [Key Findings](#Key-Findings)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
+- [Technologies Used](#Technologies-used)
+- [Project Structure](#Project-structure)
 - [Installation & Usage](#installation--usage)
 - [Visualizations](#visualizations)
 - [Author](#author)
@@ -94,7 +94,7 @@ This analysis addresses three critical business questions:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies-used
 
 - **Python 3.8+**
 - **Pandas** - Data manipulation and analysis
@@ -104,4 +104,4 @@ This analysis addresses three critical business questions:
 
 ---
 
-## 📁 Project Structure
+## Project-structure
